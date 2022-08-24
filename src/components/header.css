@@ -1,0 +1,33 @@
+.header{
+    height: 50px;
+    width: 100%;
+    background-color:rgb(89, 156, 215);
+    display: flex;
+
+}
+.menu{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    /* margin: auto; */
+    /* background-color: red; */
+    padding: 0px 5px;
+    box-sizing: border-box;
+}
+.menu>div{
+    margin: 5px;
+    font-size: medium;
+    font-weight: 600;
+    color: black;
+}
+
+.info{
+    background-color:rgb(74, 64, 14);
+    width: 700px;
+}
+.info>div{
+    text-align: center;
+    font-size: medium;
+    color: white;
+    font-weight: 200;
+}

@@ -1,0 +1,71 @@
+.main-card{
+    /* background-color: red; */
+    height: 100%;
+    width: 100%;
+   box-sizing: border-box;
+   padding: 10px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.main-card .card-container{
+    /* background-color: lightblue; */
+    height: 300px;
+    width: 450px;
+    margin: 15px;
+    border-bottom: 2px solid black;
+    display: grid;
+    -webkit-box-shadow: 13px 17px 24px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 13px 17px 24px -1px rgba(0,0,0,0.75);
+box-shadow: 13px 17px 24px -1px rgba(0,0,0,0.75);
+    grid-template-columns: repeat(4,minmax(100px,1fr));
+}
+.card-container>div{
+    margin:2px;
+    /* outline: auto; */
+    height: 250px;
+    /* background-color: yellow; */
+
+}
+.vote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* grid-column: span ; */
+}
+.vote .img{
+    margin-top: 10px;
+       width: 100px;
+       height: 100px;
+       /* background-color: yellow; */
+}
+.vote .img-2{
+    width: 60px;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    box-sizing: border-box;
+    grid-column: span 2;
+    padding: 5px;
+}
+.content>div{
+    margin-bottom: 8px;
+    text-align: center;
+}
+.content>h3{
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.card-container>button{
+    background-color:skyblue;
+    margin-left: 20px;
+    width: 400px;
+    color: white;
+    margin-bottom: 4px;
+    /* border-bottom: 1px solid black; */
+}
+
